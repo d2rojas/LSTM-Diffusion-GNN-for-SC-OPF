@@ -28,8 +28,9 @@ This repository contains implementations of advanced machine learning models for
 │   ├── results_timegrad/      # Model results and outputs
 │   └── timegrad_v3.py         # TimeGrad DDPM implementation
 │
-└── GNN_DC_OPF/               # Graph Neural Networks for DC-OPF
-    └── 3_gnn_dc_opf.ipynb    # GNN implementation and evaluation
+└── GNN_DC_OPF/                # Graph Neural Networks for DC-OPF
+    └── data/                  # Training and test datasets (20k DC-OPF solutions)
+    └── gnn_dc_opf.ipynb       # GNN implementation and evaluation
 ```
 
 # Setup and Prerequisites
@@ -85,7 +86,7 @@ Key features:
 
 ## GNN for DC-OPF
 1. Navigate to the `GNN_DC_OPF/` directory
-2. Open `3_gnn_dc_opf.ipynb`
+2. Open `gnn_dc_opf.ipynb`
 3. Run the notebook sequentially
 
 # Key Findings
