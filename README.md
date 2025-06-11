@@ -1,5 +1,16 @@
 # LSTM-Diffusion-GNN-for-SC-OPF
 
+# Group Information
+- **Group Number**: 32
+- **Track Number**: 1
+- **Course**: ECE228
+- **Project Type**: Final Project
+
+## Authors
+- Daniela Rojas
+- Jonathan Cremonesi
+- Zhenhua Zhang
+
 # Overview
 This repository contains implementations of advanced machine learning models for Security-Constrained Optimal Power Flow (SC-OPF) problems. The project integrates solar PV forecasting techniques with graph-based machine learning models to enhance power grid operation and resilience under varying renewable energy conditions and contingencies.
 
