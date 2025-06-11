@@ -176,9 +176,9 @@ def load_and_preprocess_data(file_path, seq_length=24):
     # Create PV data from available features
     pv_data = np.zeros((len(df), len(features)))
     pv_data[:, 0] = df['T2m'].values  # temperature
-    pv_data[:, 1] = 50.0  # humidity (default value as it's not in the data)
+    pv_data[:, 1] = 50.0  # humidity
     pv_data[:, 2] = df['WS10m'].values  # wind_speed
-    pv_data[:, 3] = 50.0  # cloud_cover (default value as it's not in the data)
+    pv_data[:, 3] = 50.0  # cloud_cover
     pv_data[:, 4] = df['G(i)'].values  # radiation
     pv_data[:, 5] = df['P'].values / 1000.0  # pv_generation (convert from W to kW)
     
